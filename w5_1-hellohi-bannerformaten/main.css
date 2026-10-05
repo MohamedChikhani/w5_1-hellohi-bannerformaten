@@ -1,0 +1,24 @@
+.stage {  
+    position: relative;
+    cursor: pointer;
+    
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;    
+   overflow: hidden;  
+}
+
+.bannerSize{ 
+width: 300px; 
+height: 250px; 
+}
+
+#second {
+    margin-left: 30px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+#third {
+    margin-top: 20px;
+}
