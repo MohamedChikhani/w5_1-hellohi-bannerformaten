@@ -1,24 +1,272 @@
-.stage {  
+.box1 {
     position: relative;
-    cursor: pointer;
-    
-    -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;    
-   overflow: hidden;  
+    background-color: black;
+    width: 300px;
+    height: 600px;
 }
 
-.bannerSize{ 
-width: 300px; 
-height: 250px; 
+.box2 {
+    position: relative;
+    background-color: black;
+    width: 300px;
+    height: 250px; 
+    margin: auto 0;   
 }
 
-#second {
-    margin-left: 30px;
-    margin-top: 200px;
+.box3 {
+    position: relative;
+    background-color: black;
+    width: 970px;
+    height: 250px;
+}
+.top {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.circle1 {
     position: absolute;
+    background-color: #7272dd;
+    width: 300px;
+    height: 160px;
+    bottom: 0px;
+    right: 0;
+    border-radius: 50% 50% 0 0;
 }
 
-#third {
-    margin-top: 20px;
+.streep1 {
+    position: absolute;
+    background-color: #9000ff;
+    width: 20px;
+    height: 10px;
+    top: 0px;
+    left: 5;   
+}
+
+.streep2 {
+    position: absolute;
+    background-color: #55559f;
+    width: 20px;
+    height: 10px;
+    top: 0px;
+    left: 25px;   
+}
+
+.streep3 {
+    position: absolute;
+    background-color: #b0b0eb;
+    width: 20px;
+    height: 10px;
+    top: 0px;
+    left: 50px;   
+}
+
+.streep {
+    position: absolute;
+    margin: 30px;
+}
+
+.text1 {
+    color: white;
+    margin: 40px 25px 25px 30px;
+}
+
+.text1 h1 {
+    font-size: 55px;
+    margin-bottom: -40px;
+}
+
+#textp1 {
+    font-size: 30px;
+    width: 500px;
+    margin-bottom: -20px;
+}
+
+#textp2 {
+    font-size: 17px;
+    margin-bottom: -10px;
+
+}
+
+#image2 {
+    transform: rotate(90deg);
+    margin-left: 30px;
+    margin-bottom: -40px;
+}
+
+.text1 ol{
+    list-style-type:"+";
+    margin-left: -38px;
+}
+
+#image1 {
+    position: absolute;
+    right: 60px;
+    top: 30px;
+    height: 45px;
+}
+.button1 {
+    position: absolute;
+    bottom: 30px;
+    right: 25px;
+    width: 250px;
+    height: 60px;
+    background-color: #7272dd;
+    border: 1px solid rgb(230, 224, 224);
+    border-radius: 12px;
+    font-size: 20px;
+}
+.button1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.text2 {
+    color: white;
+    margin: 40px 25px 25px 30px;
+}
+.text2 h1 {
+    font-size: 40px;
+    margin-bottom: -20px;
+}
+
+
+#image3 {
+    position: absolute;
+    right:110px;
+    top: 27px;
+    height: 40px;
+}
+
+#image4 {
+    position: absolute;
+    margin-left: 30px;
+    margin-bottom: -40px;
+    height: 110px;
+    top: 40px;
+    right: 20px;
+}
+
+#textp3 {
+    font-size: 18px;
+    width: 500px;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+
+#textp4 {
+    font-size: 10px;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+
+.text2 ol{
+    list-style-type:"+";
+    margin-left: -35px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.circle2 {
+    position: absolute;
+    background-color: #7272dd;
+    width: 200px;
+    height: 75px;
+    bottom: 0px;
+    right: 0;
+    border-radius: 120% 10% 0 0;
+}
+
+.button2 {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 120px;
+    height: 35px;
+    background-color: #7272dd;
+    border: 1px solid rgb(230, 224, 224);
+    border-radius: 12px;
+
+}
+
+.button2 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.text3 {
+    color: white;
+    margin: 40px 25px 25px 30px;
+    padding-top: 10px;
+}
+
+.text3 h1 {
+    font-size: 55px;
+    margin-bottom: -25px;
+}
+
+
+#textp5 {
+    margin-bottom: -15px;
+    font-size: 26px;
+}
+#textp6 {
+    font-size: 15px;
+    margin-bottom: -80px;
+}
+
+#image5 {
+    position: absolute;
+    right:725px;
+    top: 24px;
+    height: 55px;
+    
+}
+
+#image6 {
+    position: absolute;
+    right:550px;
+    top: 30px;
+    
+}
+
+.text3 ol{
+    list-style-type:"+";
+    margin-left: -35px;
+    font-size: 20px;
+    color: white;
+    margin-left: 410px;
+}
+
+.circle3 {
+    position: absolute;
+    background-color: #7272dd;
+    width: 250px;
+    height: 250px;
+    bottom: 0px;
+    right: 0;
+    border-radius: 120% 0% 0 0;
+}
+
+
+
+.button3 {
+    position: absolute;
+    bottom: 65px;
+    right: 45px;
+    width: 120px;
+    height: 80px;
+    background-color: #7272dd;
+    border: 1px solid rgb(230, 224, 224);
+    border-radius: 12px;
+
+}
+
+.button3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
 }
